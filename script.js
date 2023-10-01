@@ -4,7 +4,7 @@ function btClick(val)
 }
 function allClear()
 {
-    document.getElementById("display").value="0";
+    document.getElementById("display").value="";
 }
 function Clear()
 {
