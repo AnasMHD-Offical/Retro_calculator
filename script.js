@@ -8,7 +8,9 @@ function allClear()
 }
 function Clear()
 {
-    document.getElementById("display").value="0";
+     var current_ele= document.getElementById("display").value;
+   document.getElementById("display").value = current_ele.slice(0, -1);
+
 }
 function equal()
 {
